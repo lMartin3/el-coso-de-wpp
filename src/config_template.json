@@ -1,0 +1,21 @@
+{
+    "selfId": "ID DEL BOT",
+    "whitelist": [
+        "ID DE GRUPO DONDE VA A FUNCIONAR EL BOT AUNQUE ESTE EN MODO MANTENIMIENTO"
+    ],
+    "blacklist": [
+        "GRUPOS BLACKLISTEADOS"
+    ],
+    "ownerId":"ID DEL DUEÑO DEL BOT",
+    "defaultCooldown":30000,
+    "cooldownWhitelist": [
+        "ID DE GENTE QUE NO TIENE COOLDOWN"
+    ],
+    "announcementGroupId": "EL GRUPO PARA LOS ANUNCIOS Y ESAS PAVADAS",
+    "testChatId":"ID DEL GRUPO DE PRUEBA",
+    "groupLimit": 1200,
+    "commandPrefix":". <- PREFIJO DE LOS COMANDOS (EL CARACTER QUE VA ANTES DEL COMANDO), EJ: SI FUESE ! SERÍA !ayuda",
+    "maxAudioMinutes": 10,
+    "maxVideoMinutes": 5,
+    "groupInviteLink": "INVITACIÓN AL GRUPO DE ANUNCIOS Y PAVADAS"
+}

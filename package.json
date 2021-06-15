@@ -1,0 +1,43 @@
+{
+  "name": "whatsapptareabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rmdir /s /q dist&&tsc&&npm run copyfiles",
+    "start": "node dist/index.js",
+    "dev": "nodemon -e ts --exec \"npm run build && npm start\"",
+    "copyfiles": "xcopy /Y /E /I .\\src\\resources\\ .\\dist\\resources"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/figlet": "^1.5.1",
+    "@types/node-fetch": "^2.5.10",
+    "audio-effects": "^1.2.4",
+    "base64-img": "^1.0.1",
+    "canvas": "^2.7.0",
+    "chalk": "^2.4.2",
+    "colors": "^1.4.0",
+    "dotenv": "^9.0.2",
+    "fetch": "^1.1.0",
+    "figlet": "^1.5.0",
+    "fluent-ffmpeg-multistream": "^1.0.0",
+    "image-downloader": "^4.0.2",
+    "image-to-base64": "^2.2.0",
+    "instagram-url-direct": "^1.0.9",
+    "qrcode": "^1.4.4",
+    "sequency": "^0.19.2",
+    "tone": "^14.7.77",
+    "whatsapp-web.js": "^1.12.6",
+    "x-ray": "^2.3.4",
+    "ytdl-core": "^4.7.0",
+    "ytsr": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.17",
+    "@types/qrcode": "^1.4.0",
+    "typescript": "^4.2.4"
+  }
+}

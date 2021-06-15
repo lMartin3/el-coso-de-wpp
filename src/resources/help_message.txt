@@ -1,0 +1,41 @@
+Esta es una lista de comandos 🗒️:
+    *.info*
+
+    .gay @contacto
+    .camarada @contacto
+    .sticker [Necesita que le adjuntes una imagen/gif/video] 
+    .ytdl link o nombre de video de youtube
+    .insta link de post de instagram
+    .meme texto [Necesita que le adjuntes una imagen]
+    .alverso mensaje
+    .ayuda
+    .bye (esto hace que el bot deje el grupo)
+    .pfp @contacto
+    .pfps @contacto
+    .pltdo @contacto
+    .pltda @contacto
+    .chape @contacto @contacto
+    .peron
+    .milei
+    .anime
+    .gru texto1/texto2/texto3/texto4
+    .rip @contacto
+    .audcomp [respondiendo a un mensaje con un audio]
+    .boquita @contacto
+    .river @contacto
+    .earrape [respondiendo a un mensaje con un audio]
+    .eco [respondiendo a un mensaje con un audio]
+    .dado
+    .noticia texto [Necesita que le adjuntes una imagen]
+    .newells @contacto
+    .carc @contacto
+    .dts @contacto
+    .dolar
+    .fc @contacto
+    .dolartarjeta [monto a calcular]
+    .messi @contacto
+    .combinar [respondiendo a un audio que responde a un audio y así...]
+    .drip @contatcto
+    Y otras cosas que a lo mejor descubrís ‼️
+
+https://chat.whatsapp.com/GTGV8bksmwn4y3KuB3JG9V

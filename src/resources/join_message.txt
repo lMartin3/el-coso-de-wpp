@@ -1,0 +1,13 @@
+Hola 👋 soy un bot que hace algunas cosas copadas 👌
+
+Para ver una lista de comandos 🗒️ enviá .ayuda
+
+Coas que deberías saber 🤔:
+    - Esta cuenta no la maneja una persona, la maneja un robot.
+    - Esta cosa está en desarrollo así que tiene muchos errores.
+    - El bot suele tener problemas por la cantidad de grupos en los que está.
+    - Si no vas a usar el bot por favor removelo del grupo.
+    - Si hay un problema probablemente se suba un estado a la cuenta del bot.
+    - Sugerencias al IG
+
+Creado por: @luraschimartin en ig 👌
