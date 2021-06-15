@@ -1,5 +1,5 @@
 # El Coso de Wpp
-Un bot de whatsapp con múltiples funciones, escrito en TypeScript.
+Un bot de whatsapp con múltiples funciones, escrito en TypeScript.<br>
 ⚠️ El código está desorganizado, necesita un refactoring, por ahora lo dejé así porque es un prototipo.
 
 ## Importante ❗
