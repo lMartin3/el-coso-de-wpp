@@ -3,7 +3,6 @@ Un bot de whatsapp con múltiples funciones, escrito en TypeScript.<br>
 ⚠️ El código está desorganizado, necesita un refactoring, por ahora lo dejé así porque es un prototipo.
 
 ## ❗ Importante
----
 En `package.json` hay algunos scripts de NPM para compilar el código en typescript, son estos:
 ```json
   "scripts": {
@@ -21,10 +20,8 @@ En `package.json` hay algunos scripts de NPM para compilar el código en typescr
 
 Si estás usando Linux o MacOS es necesario cambiar los scripts para que utilizen comandos del sistema operativo correspondiente (los actuales son de Windows).
 
-<br>
 
 ## Como hostear el bot
----
 ### ⚠️ Aviso:
 Aunque este metodo funcionó para mí, WhatsApp **no permite bots no oficiales en su plataforma**. Eso sisgnifica que el numero que utilices para el bot podría ser bloqueado de WhatsApp. No me hago responsable por ningún daño causado a quien hostee este bot o sus usuarios.
 <br>
@@ -50,10 +47,8 @@ Aunque este metodo funcionó para mí, WhatsApp **no permite bots no oficiales e
 * El bot guarda los datos de autentificación en un archivo llamado `sessions.json` en la carpeta principal para que no sea necesario escanear el QR cada vez que se reinicia el bot.
 * Si no inicia sesión el bot, eliminá el archivo `session.json`, y reinicialo.
 
-<br>
 
 ## 📧 Contacto
----
 E-Mail: dev.martin@protonmail.com<br>
 Discord: lMartin3#1975
 
