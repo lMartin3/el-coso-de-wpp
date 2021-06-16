@@ -21,7 +21,7 @@ En `package.json` hay algunos scripts de NPM para compilar el código en typescr
 
 Si estás usando Linux o MacOS es necesario cambiar los scripts para que utilizen comandos del sistema operativo correspondiente (los actuales son de Windows).
 
-<br><br>
+<br>
 
 ## Como hostear el bot
 ---
@@ -36,10 +36,12 @@ Aunque este metodo funcionó para mí, WhatsApp **no permite bots no oficiales e
 
 ### 📔 Pasos:
 1. Clonar el repositorio
-2. De estar usando Linux o MacOS, arreglar los scripts de `package.json`
-3. Ejecutar `npm run build`
-4. Ejecutar `npm run start`
-5. Si estás usando un entorno gráfico, se va a abrir tu visualizador de imágenes con un código QR, si no, el código QR se va a mostrar en forma de base64 por la consola, convertilo a imagen. Una vez obtenido el código, escanealo con el celular.
+2. Copiar `config_template.json` a `config.json`
+3. Configurar el bot según el template.
+4. De estar usando Linux o MacOS, arreglar los scripts de `package.json`
+5. Ejecutar `npm run build`
+6. Ejecutar `npm run start`
+7. Si estás usando un entorno gráfico, se va a abrir tu visualizador de imágenes con un código QR, si no, el código QR se va a mostrar en forma de base64 por la consola, convertilo a imagen. Una vez obtenido el código, escanealo con el celular.
 
 
 ### 📝 Notas:
@@ -56,7 +58,6 @@ E-Mail: dev.martin@protonmail.com<br>
 Discord: lMartin3#1975
 
 <br>
-
 
 # Disclaimer
 
