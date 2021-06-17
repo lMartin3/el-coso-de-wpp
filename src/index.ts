@@ -300,35 +300,12 @@ export function schedule(fn : ()=>void) {
     actionQueue.push(({act: fn} as QueuedAction));
 }
 
-var alreadyLeft : string[] = [];
 
 client.on('message', async (msg : Message)=> {
     var chat = await msg.getChat();
     if(!chat.isGroup) return;
     if(config.whitelist.includes(chat.id._serialized)) return;
-    if(alreadyLeft.includes(chat.id._serialized)) return;
-    alreadyLeft.push(chat.id._serialized);
-    await chat.sendMessage("=============== AVISO ==============="+
-    "Por favor leer entero.\nEste es un mensaje automático.\n\n"+
-    "Actualmente, el bot se encuentra en un periodo de inactividad, que es más que nada porque se volvió muy complicado, "+
-    "por no decir imposible, hacer que el bot funcione en tantos grupos (para referencia, actualmente se encuentra en ~1000 grupos).\n"+
-    "Whatsapp tiene ciertas limitaciones, y, siendo un estudiante de secundaria, "+
-    "no cuento con los recursos ni el conocimiento ni el tiempo para poder arreglarlo.\n\n"+
-    "Al final, como no puedo resolver esto, voy a dejar el bot para usarlo solo en algunos grupos."+
-    "Algunos de esos grupos van a ser públicos, y voy a mandar invitaciones por " + config.groupInviteLink + "\n\n"+
-    "También voy a subir el bot a GitHub, para el que quiera ver el código fuente, va a estar acá https://github.com/lMartin3/el-coso-de-wpp."+
-    "Además pienso a hacer una guía para hacer un bot, probablemente la deje en ese link.\n\n"+
-    "El bot procederá a dejar este grupo automáticamente, si no, por favor quitenlo.");
-    setTimeout(async()=>{
-        await (chat as GroupChat).leave();
-        console.log(`Sent to ${chat.name}`)
-    }, 1000*10);
 
-
-
-
-
-    if(1+1==2) return;
     var id = msg.author || msg.from;
 
     if(!configFile.whitelist.includes(id)&&debug) return;
